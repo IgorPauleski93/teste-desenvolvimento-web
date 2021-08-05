@@ -1,0 +1,45 @@
+body {
+	background: #FFFFFF url("imgs/fundo.jpg") no-repeat right top fixed;
+}
+
+#main {
+	padding-top: 50px;
+}
+
+#f_login input[type=text], input[type=password] {
+	display: block; /*Descer o botão logar;*/
+	margin-bottom: 15px;
+	padding: 10px;
+	font-size: 15px;
+	color: #888;
+	width: 400px;
+}
+
+#f_login label {
+	font-size: 20px;
+	color: #888;
+}
+
+/*Editando o botões "LOGAR/CAD. USUARIO"*/
+#f_login input[type=submit] {
+	text-decoration: none;
+	display: table-cell;
+	width: 130px;
+	height: 30px;
+	margin: 0px;
+	padding: 1px 5px 1px 5px;
+	background-color: #222;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 10px;
+	color: #bbb;
+	font-family: Arial;
+	font-size: 10px;
+	cursor: pointer;
+	border: 0px;
+}
+
+#f_login input[type=submit]:hover {
+	background-color: #c22;
+	color: #FFF;
+}
