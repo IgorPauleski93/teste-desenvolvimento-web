@@ -11,17 +11,20 @@
 <body>
 	<section id="main">
 		<?php
+
+			include "conexao.inc"
+
 			if (isset($_POST["f_logar"])) {
 				$user=$_POST["f_user"];
 				$senha=$_POST["f_senha"];
 
 				//MySQL
-					//pesq. user, se existir;
-					//obter user e senha;
-					//comparar senha;
+				$sql="SELECT * FROM users WHERE name='$user' AND password='$senha'";
+				$res=mysqli_query($con,$sql);
+				$ret=mysqli_affected_rows($con);
+				
 
-
-				if (($user!="igor")or($senha!="123")) {
+				if ($ret == 0) {
 					echo "<p id='lgErro'>Login incorreto!</p>";
 				} else {
 					//Criar a chave de segurança e armz. na sessão;
@@ -44,6 +47,8 @@
 					header("location:gerenciamento.php?num=$num");
 				}
 			}
+			//Fechando a conexão;
+			mysqli_close($con);
 		?>
 		<form action="login.php" method="post" name="f_login" id="f_login">
 			<label>Usuário</label><br>

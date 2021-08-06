@@ -1,0 +1,59 @@
+[33mcommit 1c9f4a97e04b2de061e161033b1941b931258712[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Pauleski <igorpauleski@hotmail.com>
+Date:   Thu Aug 5 16:13:09 2021 -0300
+
+    Criado sistema de chaves de segurança e armazenamento na sessão
+
+[33mcommit 13ccebd7b7397195df596be410130280824f0ec3[m
+Author: Pauleski <igorpauleski@hotmail.com>
+Date:   Thu Aug 5 15:23:18 2021 -0300
+
+    Formulario Login OK!
+
+[33mcommit 9e93477b96e2c73f6401a9d8cafebeb81429416c[m
+Author: Pauleski <igorpauleski@hotmail.com>
+Date:   Thu Aug 5 14:26:26 2021 -0300
+
+    Iniciando o projeto, criado pasta imgs login.php e style.css
+
+[33mcommit 4166709ac40041325b55b2721d908b0fb549e4b3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Vitor Serrano <vitorcirinoserrano@gmail.com>
+Date:   Fri Jun 19 17:42:05 2020 -0300
+
+    Update README.md
+
+[33mcommit 56b6e92c828809e253eaee4ccc9253af3ff2caf3[m
+Author: Vitor Serrano <vitorcirinoserrano@gmail.com>
+Date:   Fri Jun 19 16:32:19 2020 -0300
+
+    Update README.md
+
+[33mcommit 5978afaa264e12fbbcb3a381c34aa573f129c65a[m
+Author: Vitor Serrano <vitorcirinoserrano@gmail.com>
+Date:   Fri Jun 19 15:57:43 2020 -0300
+
+    Update README.md
+
+[33mcommit 296749fd57e4dfa651d886553b0187df034d677b[m
+Author: Vitor Serrano <vitorcirinoserrano@gmail.com>
+Date:   Fri Jun 19 11:52:02 2020 -0300
+
+    Update README.md
+
+[33mcommit 3bcc7dc972c2a1d00f2f19a2ba7a487943af469a[m
+Author: Vitor Serrano <vitorcirinoserrano@gmail.com>
+Date:   Fri Jun 19 11:48:33 2020 -0300
+
+    Update README.md
+
+[33mcommit 08ec9e9a06932b4886da7414ca660e275973c646[m
+Author: Vitor Serrano <vitorcirinoserrano@gmail.com>
+Date:   Fri Jun 19 11:48:17 2020 -0300
+
+    Update README.md
+
+[33mcommit 2bc8d9bd9805ba43020bb39492a5abc13b0aa78b[m
+Author: Vitor Serrano <vitorcirinoserrano@gmail.com>
+Date:   Fri Jun 19 11:44:23 2020 -0300
+
+    Initial commit
