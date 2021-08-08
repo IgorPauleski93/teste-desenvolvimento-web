@@ -12,7 +12,7 @@
 	<section id="main">
 		<?php
 
-			include "conexao.inc"
+			include "conexao.inc";
 
 			if (isset($_POST["f_logar"])) {
 				$user=$_POST["f_user"];
@@ -21,7 +21,7 @@
 				//MySQL
 				$sql="SELECT * FROM users WHERE name='$user' AND password='$senha'";
 				$res=mysqli_query($con,$sql);
-				$ret=mysqli_affected_rows($con);
+				$ret=mysqli_fetch_array($res);
 				
 
 				if ($ret == 0) {
@@ -42,6 +42,7 @@
 					session_start();
 					$_SESSION['numlogin']=$num;
 					$_SESSION['username']=$num;
+					$_SESSION['acesso']=$ret['acesso']; //Acesso: 0=Restrito / 1=Total;
 
 					//Fazer a chamada do gerenciamento;
 					header("location:gerenciamento.php?num=$num");
@@ -58,7 +59,6 @@
 			<input type="password" name="f_senha">
 			<br>
 			<input type="submit" value="LOGAR" name="f_logar">
-			<input type="submit" value="CAD. USUARIO" name="f_cadastro">
 			<input type="submit" value="RECUPERAR SENHA" name="f_recuperar">
 		</form>
 	</section>
