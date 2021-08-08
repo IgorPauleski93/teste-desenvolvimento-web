@@ -10,9 +10,9 @@
 	}else{
 		echo "<p>Login não efetuado</p>";
 		exit;
-	}*/
+	}
 
-	include "conexao.inc";
+	include "conexao.inc";*/
 ?>
 
 <!DOCTYPE html>
@@ -28,10 +28,11 @@
 <body>
 
 	<section id="main">
-		<a href="gerencimento.php?num=<?php echo $n1; ?>" target="_self" class="btmenu">Voltar</a>
+		<a href="gerenciamento.php" target="_self" class="btmenu">Voltar</a>
 		<h1>Novo Usuário</h1>
 
 		<?php
+		include "conexao.inc";
 			if (isset($_GET["f_bt_novo_colaborador"])) {
 				$vname=$_GET["f_name"];
 				$vpassword=$_GET["f_password"];

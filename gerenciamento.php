@@ -10,7 +10,8 @@
 	}else{
 		echo "<p>Login não efetuado</p>";
 		exit;
-	}*/
+	}
+	include "conexao.inc";*/
 ?>
 
 <!DOCTYPE html>
@@ -54,7 +55,7 @@
 <body>
 
 	<section>
-		<p>Menu principal de gerenciamento.</p>
+		<h1><p>Menu principal de gerenciamento.</p></h1>
 	</section>
 
 	<nav>
@@ -73,8 +74,8 @@
 			<button class="btmenu">Users</button>
 			<div id="menub2" class="menub">
 				<a href="novo_usuario.php" target="_self">Create</a>
-				<a href="#" target="_self">Update</a>
-				<a href="#" target="_self">Delete</a>
+				<a href="editar_usuario.php" target="_self">Update</a>
+				<a href="excluir_usuario.php" target="_self">Delete</a>
 			</div>
 		</div>
 
