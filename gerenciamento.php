@@ -72,7 +72,7 @@
 		<div id="menua2" class="menu_ger">
 			<button class="btmenu">Users</button>
 			<div id="menub2" class="menub">
-				<a href="#" target="_self">Create</a>
+				<a href="novo_usuario.php" target="_self">Create</a>
 				<a href="#" target="_self">Update</a>
 				<a href="#" target="_self">Delete</a>
 			</div>

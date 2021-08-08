@@ -111,3 +111,9 @@ body {
 	text-align: center;
 	width: 300px;
 }
+
+.f_colaborador input {
+	display: block;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
