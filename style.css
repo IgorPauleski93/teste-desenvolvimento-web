@@ -42,7 +42,7 @@ body {
 	border-radius: 10px;
 	cursor: pointer;
 	border: 0px;
-	/*visibility: hidden;*/
+	visibility: hidden;
 }
 
 .menub a {
