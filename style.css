@@ -2,6 +2,63 @@ body {
 	background: #FFFFFF url("imgs/fundo.jpg") no-repeat right top fixed;
 }
 
+.btmenu {
+	text-decoration: none;
+	display: table-cell;
+	width: 130px;
+	height: 30px;
+	margin: 0px;
+	padding: 1px 5px 1px 5px;
+	background-color: #222;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 10px;
+	color: #bbb;
+	font-family: Arial;
+	font-size: 10px;
+	cursor: pointer;
+	border: 0px;
+	text-transform: uppercase;
+	outline: none;
+}
+
+.btmenu:hover {
+	background-color: #c22;
+	color: #FFF;
+}
+
+.menu_ger {
+	display: inline-block;
+}
+
+.menub {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 130px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #ddd;
+	border-radius: 10px;
+	cursor: pointer;
+	border: 0px;
+	/*visibility: hidden;*/
+}
+
+.menub a {
+	color: #000;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-family: Arial;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+.menub a:hover {
+	color: #fff;
+	font-weight: bold;
+}
+
 #main {
 	padding-top: 50px;
 }
